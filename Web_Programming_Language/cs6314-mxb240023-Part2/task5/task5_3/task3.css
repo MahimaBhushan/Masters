@@ -1,0 +1,19 @@
+
+.bg-utd-green { background-color: #008542; }
+.bg-utd-orange { background-color: #C75B12; }
+
+.utd-header {
+    background-color: #124734;;
+    border-bottom: 5px solid #fbf7f4;
+}
+.utd-header h2 {
+    color: white;  /* Set the text color to white */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+footer {
+    font-size: 14px;
+}
