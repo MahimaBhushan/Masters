@@ -83,3 +83,20 @@ example:\
 \f1\b0 \cf0 \
 ./controller 100 &\
 }
+
+
+## Distance Vector & Multicast Routing Simulation
+
+This project implements a distance-vector routing protocol and a multicast routing protocol for unidirectional networks using C and UNIX process-based simulation.
+
+Each network node runs as a concurrent process and communicates through file-based channels, while a controller enforces topology constraints. The routing layer uses flooded distance-vector and in-distance messages to compute paths, and the multicast layer builds and maintains source-based trees with dynamic join, failure detection, and recovery.
+
+### Key Features
+- Distance-vector routing for unidirectional links
+- Reverse path forwarding–style controlled flooding
+- Multicast tree construction and maintenance
+- Node failure detection and tree reconfiguration
+- UNIX process and file-based network simulation
+
+### Technologies
+C, Linux, Socket Programming, UNIX Processes
